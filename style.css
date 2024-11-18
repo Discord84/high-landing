@@ -1,0 +1,550 @@
+body {
+    background-color: #e2e2e2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1550px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #151515;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    transform-origin: 0.5s;
+}
+
+.nav-link:hover {
+    color: crimson;
+}
+
+.nav-button {
+    margin-right: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    padding: 21px 18px;
+    transition: 1.5s;
+}
+
+.nav-button2 {
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 21px 18px;
+    border: none;
+    transition: 1.5s;
+}
+
+.nav-button2:hover {
+    color: black;
+    background-color: white;
+}
+
+.nav-button:hover {
+    color: white;
+    background-color: black;
+}
+
+.maincont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1 {
+    padding-top: 60px;
+    font-size: 55px;
+}
+
+.p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.input {
+    max-width: 361px;
+    padding: 10px 10px 10px 10px;
+    color: #151515;
+    border: none;
+}
+
+.formbutton {
+    width: fit-content;
+    padding: 10px 10px 10px 10px;
+    background-color: #151515;
+    color: white;
+    border: none;
+    transition: 1.5s;
+}
+
+.formbutton:hover {
+    background-color: white;
+    color: #151515;
+}
+
+.form {
+    margin-top: 40px;
+    display: flex;
+}
+
+.images {
+    margin-top: 80px;
+}
+
+.contain img {
+    margin-right: 28px;
+}
+
+.about-us {
+    margin-top: 200px;
+}
+
+.about-button {
+    width: fit-content;
+    background-color: #e2e2e2;
+    color: #151515;
+    padding: 10px 10px 10px 10px;
+    transition: 5s;
+}
+
+.about-button:hover {
+    background-color: #f5efef;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2 {
+    font-size: 50px;
+}
+
+.about-p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.ul li {
+    list-style-type: square;
+}
+
+.ul {
+    margin-top: 60px;
+}
+
+.off {
+    display: none;
+}
+
+.on {
+    display: block;
+}
+
+.how-it {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-button {
+    width: fit-content;
+    background-color: #e2e2e2;
+    color: #151515;
+    padding: 10px 10px 10px 10px;
+}
+
+.how-h2 {
+    font-size: 50px;
+}
+
+.into {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intoh {
+    font-size: 27px;
+}
+
+.intop {
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.intointo {
+    margin-left: 28px;
+    width: 70%;
+}
+
+.into img {
+    height: 100px;
+    width: 100px;
+}
+
+.how-it-work {
+    margin-top: 200px;
+}
+
+.pricing-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-button {
+    margin-top: 320px;
+    width: fit-content;
+    background-color: #e2e2e2;
+    color: #151515;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    display: flex;
+    margin-left: auto;
+}
+
+.priceh {
+    font-size: 50px;
+    text-align: right;
+}
+
+.pricep {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.pricing-left img {
+    margin-top: 200px;
+}
+
+.ppc {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #e2e2e2;
+    border: 1px solid #000000;
+    padding: 52px 40px;
+}
+
+.ppc h3 {
+    padding-left: 15px;
+    position: relative;
+    font-size: 70px;
+}
+
+.ppc h3::before {
+    content: "$";
+    position: absolute;
+    font-size: 28px;
+    top: 0;
+    left: 0;
+}
+
+.ppc span {
+    font-size: 28px;
+}
+
+.pc {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+.u li {
+    list-style-type: "$";
+    font-size: 70px;
+}
+
+.pppc {
+    margin-left: 102px;
+    background-color: #151515;
+    color: #ffffff;
+    padding: 52px 40px;
+}
+
+.ppppc {
+    margin-left: 102px;
+    background-color: #151515;
+    color: #ffffff;
+    padding: 52px 40px;
+}
+
+.pppc span {
+    font-size: 28px;
+}
+
+.ppppc span {
+    font-size: 28px;
+}
+
+.pppc h3 {
+    padding-left: 15px;
+    position: relative;
+    font-size: 70px;
+}
+
+.ppppc h3 {
+    padding-left: 15px;
+    position: relative;
+    font-size: 70px;
+}
+
+.pppc h3::before {
+    content: "$";
+    position: absolute;
+    font-size: 28px;
+    top: 0;
+    left: 0;
+}
+
+.ppppc h3::before {
+    content: "$";
+    position: absolute;
+    font-size: 28px;
+    top: 0;
+    left: 0;
+}
+
+.bottom-button2 {
+    width: 100%;
+    max-width: 356px;
+    background-color: #ffffff;
+    padding: 14px 0;
+    color: #000000;
+    border: 2px solid transparent;
+    transition: 1.5s;
+}
+
+.bottom-button2:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+.ppppc {
+    margin-left: 102px;
+    background-color: #ffffff;
+    color: #151515;
+}
+
+.footer {
+    background-color: #151515;
+}
+
+.footerh {
+    margin-top: 47px;
+    color: #ffffff;
+    font-size: 52px;
+}
+
+.footbutton {
+    background-color: #151515;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    padding: 15px 20px 15px 20px;
+    transition: 1.5s;
+}
+.footbutton:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 0.5px solid #000000;
+}
+
+.footform {
+    display: flex;
+    margin-top: 32px;
+}
+
+.inp {
+    color: #151515;
+    font-size: 18px;
+    padding-right: 193px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+}
+
+
+.foot-bot {
+    margin-top: 155px;
+    color: #ffffff;
+}
+
+.pul li {
+    list-style-type: square;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.once {
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.bottom-button {
+    width: 100%;
+    max-width: 356px;
+    background-color: #151515;
+    padding: 14px 0;
+    color: #ffffff;
+    border: none;
+    transition: 1.5s;
+    margin-top: auto;
+}
+
+.bottom-button:hover {
+    background-color: #ffffff;
+    color: #151515;
+}
+
+.pul {
+    padding-left: 15px;
+    margin-bottom: 79px;
+}
+
+.foot-bot {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-2section {
+    color: #ffffff;
+}
+.footer-3section {
+    color: #ffffff;
+}
+.footer-top {
+    padding-top: 32px ;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-2section {
+    display: flex;
+    flex-direction: column;
+}
+.footer-3section {
+
+    display: flex;
+    flex-direction: column;
+}
+.footer-4section {
+
+    display: flex;
+    flex-direction: column;
+}
+.footer-3section a {
+    margin-bottom: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+}
+.footer-4section a {
+    margin-bottom: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+}
+.footer-3section a:hover {
+    color: orange;
+}
+.footer-4section a:hover {
+    color: orange;
+}
+.right-info {
+    margin-bottom: 24px;
+}
+.mail {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 1s;
+}
+.mail:hover {
+    color: orange;
+}
+.FAQ-button {
+    width: fit-content;
+    padding: 6px 20px;
+    background-color: #e2e2e2;
+    color: #000000;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+.FAQ-h {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.FAQ {
+    display: flex;
+    justify-content: space-between;
+}
+.FAQ-p {
+    margin-bottom: 61px;
+}
+.FAQ-ul li {
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    
+}
+.FAQ-ul li:last-of-type {
+    border-bottom: none;
+}
+.FAQh::after {
+    position: absolute;
+    content: "";
+    background: url(images/plus.png) center/cover no-repeat;
+    height: 28px;
+    width: 28px;
+    right: 0;
+}
+.FAQ-ul li h3 {
+    position: relative;
+}
+
+.FAQp {
+    display: none;
+}
+
+.FAQp-active {
+    display: block;
+}
+.FAQh-active::after {
+    position: absolute;
+    content: "";
+    background: url(images/minus.png) center/cover no-repeat !important;
+    height: 28px;
+    width: 28px;
+    right: 0;
+}
